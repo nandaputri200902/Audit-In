@@ -1,16 +1,16 @@
-// import mysql from 'mysql';
+import mysql from 'mysql';
 
-// let conn = mysql.createConnection({
-//   host: 'localhost',
-//   user: 'root',
-//   password: '',
-//   database: 'audit_in',
-//   multipleStatements: true
-// });
+let conn = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'audit_in',
+  multipleStatements: true
+});
 
-// conn.connect(err => {
-//   if (err) throw err;
-//   console.info('Koneksi ges');
-// });
+conn.connect(err => {
+  if (err) throw err;
+  console.info('Koneksi ges');
+});
 
-// export default conn;
+export default conn;

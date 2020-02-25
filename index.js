@@ -1,5 +1,5 @@
 import express from 'express';
-// import db from './database/mysql';
+import db from './database/mysql';
 import session from 'express-session';
 import bodyParser from 'body-parser';
 import Route from './route/routes';

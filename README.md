@@ -7,9 +7,13 @@ Aplikasi Peminjaman Aula secara Universal.
 [![Lisensi GitHub](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/hasimy-as/Audit-In/master/LICENSE)
 [![Versi npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/)
 
-## Versi 0.8.0a.
+## Tampilan
+Setelah mengakses web, tampilan awal yaitu seperti berikut:
+![foto](docs/webView.png)
 
-Versi 0.8 Alpha.
+## Versi 1.0.0
+
+Versi 1.0.0 fixed.
 
 # Penggunaan
 
