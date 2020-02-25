@@ -1,5 +1,5 @@
 import express from 'express';
-import db from './database/mysql';
+// import db from './database/mysql';
 import session from 'express-session';
 import bodyParser from 'body-parser';
 import Route from './route/routes';
@@ -10,7 +10,7 @@ const PORT = 3001 || process.env.PORT;
 Index.use(
   session({
     secret: 'secret',
-    resave: true,
+    resave: true, 
     saveUninitialized: true
   })
 );
