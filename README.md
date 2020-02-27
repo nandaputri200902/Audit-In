@@ -8,6 +8,7 @@ Untuk akses website, silakan klik [tautan berikut](https://auditin-aja.herokuapp
 
 [![Lisensi GitHub](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/hasimy-as/Audit-In/master/LICENSE)
 [![Versi npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/)
+[![Audit-in](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](http://auditin-aja.herokuapp.com/)
 
 # Tampilan
 
@@ -17,7 +18,7 @@ Setelah mengakses web, tampilan awal yaitu seperti berikut:
 
 # Versi
 
-Versi 1.0.0 fixed.
+Versi 1.0.0.
 
 # Penggunaan
 
