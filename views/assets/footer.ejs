@@ -1,9 +1,80 @@
-<script>
-        var today = new Date();
-        var date = today.getFullYear();
-    </script>
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
 
-<footer>
-    <a>Copyright <script>document.write(date);</script> - Audit-In</a><br />
-    <a>SMK Telkom Malang</a>
+<script>
+  let today = new Date();
+  let date = today.getFullYear();
+</script>
+
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 footer-info">
+          <img src="img/logo-gna.png" alt="Audit-In" />
+          <p>
+            In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam
+            vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit
+            molestiae recusandae possimus. Aut consectetur id quis. In inventore
+            consequatur ad voluptate cupiditate debitis accusamus repellat
+            cumque.
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+            <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+            <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+            <li>
+              <i class="fa fa-angle-right"></i> <a href="#">Terms of service</a>
+            </li>
+            <li>
+              <i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Kontak Kami</h4>
+          <p>
+            Jln. Danau Ranau No. 1 <br />
+            Kota Malang, Jawa Timur<br />
+            Indonesia <br />
+            <strong>Phone:</strong> +62 812 3381 0366<br />
+            <strong>Email:</strong> ahmadhasyimi674@gmail.com<br />
+          </p>
+
+          <div class="social-links">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="google-plus"
+              ><i class="fa fa-google-plus"></i
+            ></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright
+      <script>
+        document.write(date);
+      </script>
+      <br />
+      <strong>Audit-In</strong>
+    </div>
+    <div class="credits">
+      By MinTeam
+    </div>
+  </div>
 </footer>

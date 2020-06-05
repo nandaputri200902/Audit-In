@@ -1,19 +1,322 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+  <meta charset="utf-8" />
+  <title>Aplikasi Audit-In</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+
+  <link href="img/favicon.png" rel="icon" />
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+  
+
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/venobox/venobox.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+  <link href="css/style.css" rel="stylesheet" />
 </head>
+
 <body>
-    <% include ./assets/navbar %>
-    <h1>Homepage</h1>
-    <br />
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <h1><a href="#main">Audit<span>-</span>In</a></h1>
+        <!-- <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a> -->
+      </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, incidunt dolorum consequatur dignissimos non aspernatur ut possimus eligendi suscipit obcaecati eius. Tempore iste ratione atque, quam nihil autem laborum modi.</p>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="/">Beranda</a></li>
+          <li><a href="/bantuan">Bantuan</a></li>
+          <li><a href="/aula">Daftar Aula</a></li>
+          <li><a href="/kerjasama">Kerjasama</a></li>
+          <li><a href="/tim">Tim</a></li>
+          <li class="sewa"><a href="#sewa">Sewa!</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <br />
+
+
+    <section id="intro">
+      <div class="intro-container wow fadeIn">
+        <h1 class="mb-4 pb-0">Audit<span>-</span>In</h1>
+        <p class="mb-4 pb-0">Mempermudah peminjaman Aula anda!</p>
+        <a href="https://www.youtube.com/watch?v=DyDfgMOUjCI" class="venobox play-btn mb-4  "data-vbtype="video"
+          data-autoplay="true"></a>
+        <a href="/aula" class="about-btn scrollto">Sewa!</a>
+      </div>
+    </section>
+    
+    <main id="main">
+      <section id="speakers" class="wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h2>Aula</h2>
+            <p>Berikut beberapa foto Aula yang kami sewakan.</p>
+          </div>
+    
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img src="img/aula/1.jpg" alt="aula smkn 1 malang" class="img-fluid">
+                <div class="details">
+                  <h3><a href="/aula">Aula SMKN Malang</a></h3>
+                  <p>Aula dari SMKN Malang, Jawa Timur.</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img src="img/aula/2.jpg" alt="aula sman 8 malang" class="img-fluid">
+                <div class="details">
+                  <h3><a href="/aula">Aula SMAN Malang</a></h3>
+                  <p>Aula dari SMAN Malang, Jawa Timur.</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img src="img/aula/3.jpg" alt="aula sman 1 malang" class="img-fluid">
+                <div class="details">
+                  <h3><a href="/aula">Aula SMAK Malang</a></h3>
+                  <p>Aula dari SMAK Malang, Jawa Timur.</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img src="img/aula/4.jpg" alt="aula serbaguna malang" class="img-fluid">
+                <div class="details">
+                  <h3><a href="/aula">Aula Serbaguna Malang</a></h3>
+                  <p>Aula Serbaguna Malang, Jawa Timur.</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img src="img/aula/5.jpg" alt="aula sman 12 malang" class="img-fluid">
+                <div class="details">
+                  <h3><a href="/aula">Aula MAN Malang</a></h3>
+                  <p>Aula dari MAN Malang, Jawa Timur.</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker">
+                <img src="img/aula/6.jpg" alt="aula smkn 4 malang" class="img-fluid">
+                <div class="details">
+                  <h3><a href="/aula">Aula MAK Malang</a></h3>
+                  <p>Aula dari MAK Malang, Jawa Timur.</p>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </section>
+    <!-- kebanyakan 2 part di hilangkan disini dari yurod.ejs -->
+    
+      <!--==========================
+          dokumentasi
+        ============================-->
+      <section id="gallery" class="wow fadeInUp">
+    
+        <div class="container">
+          <div class="section-header">
+            <h2>Dokumentasi</h2>
+            <p>Berikut beberapa dokumentasi kegiatan kami.</p>
+          </div>
+        </div>
+    
+        <div class="owl-carousel gallery-carousel">
+          <a href="img/gallery/1.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.jpg" alt=""></a>
+          <a href="img/gallery/2.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.jpg" alt=""></a>
+          <a href="img/gallery/3.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.jpg" alt=""></a>
+          <a href="img/gallery/4.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.jpg" alt=""></a>
+          <a href="img/gallery/5.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.jpg" alt=""></a>
+          <a href="img/gallery/6.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.jpg" alt=""></a>
+          <a href="img/gallery/7.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.jpg" alt=""></a>
+          <a href="img/gallery/8.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.jpg" alt=""></a>
+        </div>
+    
+      </section>
+    
+     
+      <!--==========================
+          Buy Ticket Section
+        ============================-->
+      <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+        <div class="container">
+    
+          <div class="section-header">
+            <h2>Sewa Aula!</h2>
+            <p>Dibawah ini adalah beberapa jangka harga peminjaman Aula dan fasilitas yang diberikan.</p>
+          </div>
+    
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">Aula Standar</h5>
+                  <h6 class="card-price text-center">Rp. 7.000.000,00</h6>
+                  <hr>
+                  <ul class="fa-ul">
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Tempat Duduk</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Ruang Masak Internal</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Security Internal</li>
+                    <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Tempat VIP</li>
+                    <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Spesialis Koki</li>
+                    <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Sarpra Lengkap</li>
+                  </ul>
+                  <hr>
+                  <div class="text-center">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal"
+                      data-ticket-type="standard-access">Sewa!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card mb-5 mb-lg-0">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">Aula Lengkap</h5>
+                  <h6 class="card-price text-center">Rp. 16.000.000,00</h6>
+                  <hr>
+                  <ul class="fa-ul">
+                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Tempat Duduk</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Ruang Masak Internal</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Security Internal</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Tempat VIP</li>
+                    <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Spesialis Koki</li>
+                    <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Sarpra Lengkap</li>
+                  </ul>
+                  <hr>
+                  <div class="text-center">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal"
+                      data-ticket-type="pro-access">Sewa!</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pro Tier -->
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-muted text-uppercase text-center">Aula Premium</h5>
+                  <h6 class="card-price text-center">Rp. 27.000.000,00</h6>
+                  <hr>
+                  <ul class="fa-ul">
+                   <li><span class="fa-li"><i class="fa fa-check"></i></span>Tempat Duduk</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Ruang Masak Internal</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Security Internal</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Tempat VIP</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Spesialis Koki</li>
+                    <li><span class="fa-li"><i class="fa fa-check"></i></span>Sarpra Lengkap</li>
+                  </ul>
+                  <hr>
+                  <div class="text-center">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal"
+                      data-ticket-type="premium-access">Sewa!</button>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+        <!-- Modal Order Form -->
+        <div id="buy-ticket-modal" class="modal fade">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Sewa!</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form method="POST" action="#">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="your-name" placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="your-email" placeholder="Your Email">
+                  </div>
+                  <div class="form-group">
+                    <select id="ticket-type" name="ticket-type" class="form-control">
+                      <option value="">-- Pilih tipe Aula anda --</option>
+                      <option value="standard-access">Aula Standar</option>
+                      <option value="pro-access">Aula Lengkap</option>
+                      <option value="premium-access">Aula Premium</option>
+                    </select>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn">Sewa!</button>
+                  </div>
+                </form>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    
+      </section>
+    
+  <br /><br /><br />
+    
+    </main>
+
     <% include ./assets/footer %>
-</body>
-</html>
+  
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    
+    <% include ./assets/javascript %>
+    
+    </body>
+    
+    </html>
